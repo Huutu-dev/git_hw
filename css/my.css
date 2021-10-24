@@ -1,0 +1,9 @@
+.gradient {
+    background-image: conic-gradient(red, yellow, green);
+}
+
+#title {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}

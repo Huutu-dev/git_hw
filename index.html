@@ -4,14 +4,30 @@
         <meta charset="utf-8">
         <title>Easy Cooking: Pasta Carbonara</title>
         <link rel="icon" type="image/ico" href="./favicon.ico"/>
+        <link rel="stylesheet" href="./css/my.css"/>
+        <style>
+            td.box {
+                height: 100px;
+                width: 500px;
+                padding: 20px;
+                margin: 50px;
+                border: 10px groove greenyellow;
+                color: red;
+                background-color: yellow;
+            }
+            a:hover {
+                color: beige;
+                background-color: rgb(179, 169, 204);
+            }
+        </style>
     </head>
     <body>
-        <h1>How to cook Pasta Carbonara</h1>
-        <h2>Ingridients:</h2>
+        <div id="title">How to cook Pasta Carbonara</div>
+        <h2><a href="./Readme.txt">Ingridients:</a></h2>
         <table>
             <tr>
                 <td><img src="./img/spaghetti-carbonara-01-600x900.jpg" width="200" height="300" alt="Spaghetti Carbonara"></td>
-                <td><ul>
+                <td class="box"><ul>
                     <li>8-10 slices bacon, cut into 1/2-inch pieces</li>
                     <li>8 1/2 cups water</li>
                     <li>4 cloves garlic</li>
@@ -24,7 +40,8 @@
             </tr>
         </table>
         
-        <h2>Instructions:</h2>
+        <div style="font-size: x-large; font-family: fantasy; color: blueviolet;">Instructions:</div>
+        <div class="gradient">
         <ol>
             <li>Add bacon ans 1/2 cup of the water to a large non-stick skillet and bring to a simmer over medium-high heat.</li>
             <li>Allow to simmer until water evaporates about 6 - 7 minutes, then reduce heat to medium-low ...</li>
@@ -35,5 +52,6 @@
             <li>Slowly pour and whisk 1/2 cups pasta</li>
             <li>Let pasta rest, tossing frequently, 2 - 4 minutes until sauce has</li>
         </ol>
+        </div>
     </body>
 </html>
